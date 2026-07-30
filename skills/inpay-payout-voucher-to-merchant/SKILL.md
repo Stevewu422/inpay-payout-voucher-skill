@@ -46,6 +46,7 @@ tags: [inpay, payout, merchant-support, voucher, backend]
 
 4. **生成/截取凭证**
    - 优先使用后台真实详情页截图，隐藏无关后台导航、内部备注、通道成本、API 密钥、风控备注、系统内部 ID 等敏感信息。
+   - 截图样式必须贴近后台详情卡片：白底、浅灰边框表格、标题为 `Payout Transfer Details`，两列表格（左列字段名，右列字段值），`Status` 的 `Payout Success` 用绿色文字；不要做蓝色大标题、海报风或额外装饰。
    - 截图内容建议保留类似：
 
 ```text
@@ -56,7 +57,7 @@ Transfer to    0759232813
 Out Trade No   KKB2607301807532377853828
 Total Fee      1170.00
 Create Time    2026-07-30 10:07:54
-Status         Payout Success
+Status         Payout Success   # green text
 Customer Name  Eze Ezechiel
 ```
 
